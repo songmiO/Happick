@@ -1,0 +1,28 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.6)
+  - PryntTrimmerView (4.0.0)
+  - SteviaLayout (4.7.3)
+  - YPImagePicker (4.2.0):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - PryntTrimmerView
+    - SteviaLayout
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  YPImagePicker: accf310f9526641a84372c0ecf943547d9b1e52c
+
+PODFILE CHECKSUM: bec2e077756368cd330e241728f97e6e9376f113
+
+COCOAPODS: 1.9.3

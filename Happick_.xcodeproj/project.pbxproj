@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094DE8D823E026AC00DC314C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DE8D723E026AC00DC314C /* AppDelegate.swift */; };
+		094DE8DA23E026AC00DC314C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DE8D923E026AC00DC314C /* SceneDelegate.swift */; };
+		094DE8DF23E026AC00DC314C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094DE8DD23E026AC00DC314C /* Main.storyboard */; };
+		094DE8E123E026AD00DC314C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094DE8E023E026AD00DC314C /* Assets.xcassets */; };
+		094DE8E423E026AD00DC314C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094DE8E223E026AD00DC314C /* LaunchScreen.storyboard */; };
+		094DE8EC23E02A1400DC314C /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094DE8EB23E02A1400DC314C /* TextViewController.swift */; };
+		2E99FD254FBB005B21ADEF24 /* Pods_Happick_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F800B17CB5FE085ED12CAA6 /* Pods_Happick_.framework */; };
+		7E39DF45266BE5220019708F /* IdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E39DF44266BE5220019708F /* IdViewController.swift */; };
+		7E44DC6C2630050C005C3BDD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E44DC6B2630050C005C3BDD /* LocalAuthentication.framework */; };
+		7E44DC6E263005C0005C3BDD /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44DC6D263005C0005C3BDD /* PasswordViewController.swift */; };
+		7EC5946D25E780CF00319846 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC5946C25E780CF00319846 /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094DE8D423E026AC00DC314C /* Happick_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happick_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094DE8D723E026AC00DC314C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		094DE8D923E026AC00DC314C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		094DE8DE23E026AC00DC314C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094DE8E023E026AD00DC314C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094DE8E323E026AD00DC314C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		094DE8E523E026AD00DC314C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094DE8EB23E02A1400DC314C /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		3EAEC5E4506221F75CD613F4 /* Pods-Happick_.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happick_.debug.xcconfig"; path = "Target Support Files/Pods-Happick_/Pods-Happick_.debug.xcconfig"; sourceTree = "<group>"; };
+		69F2087BFACD44984B61AFE9 /* Pods-Happick_.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happick_.release.xcconfig"; path = "Target Support Files/Pods-Happick_/Pods-Happick_.release.xcconfig"; sourceTree = "<group>"; };
+		7E2CE982262574E700A5BE97 /* SCDream3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SCDream3.otf; path = ../../../Library/Fonts/SCDream3.otf; sourceTree = "<group>"; };
+		7E39DF44266BE5220019708F /* IdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdViewController.swift; sourceTree = "<group>"; };
+		7E44DC6B2630050C005C3BDD /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		7E44DC6D263005C0005C3BDD /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		7EC5946C25E780CF00319846 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9F800B17CB5FE085ED12CAA6 /* Pods_Happick_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happick_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094DE8D123E026AC00DC314C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E44DC6C2630050C005C3BDD /* LocalAuthentication.framework in Frameworks */,
+				2E99FD254FBB005B21ADEF24 /* Pods_Happick_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094DE8CB23E026AC00DC314C = {
+			isa = PBXGroup;
+			children = (
+				7E39DF44266BE5220019708F /* IdViewController.swift */,
+				094DE8D623E026AC00DC314C /* Happick_ */,
+				094DE8D523E026AC00DC314C /* Products */,
+				B31BF19459C07F88C94F262A /* Pods */,
+				B59AFBC54798F3ED56D9C92C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		094DE8D523E026AC00DC314C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094DE8D423E026AC00DC314C /* Happick_.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094DE8D623E026AC00DC314C /* Happick_ */ = {
+			isa = PBXGroup;
+			children = (
+				094DE8D723E026AC00DC314C /* AppDelegate.swift */,
+				094DE8D923E026AC00DC314C /* SceneDelegate.swift */,
+				094DE8E223E026AD00DC314C /* LaunchScreen.storyboard */,
+				094DE8DD23E026AC00DC314C /* Main.storyboard */,
+				7E44DC6D263005C0005C3BDD /* PasswordViewController.swift */,
+				094DE8EB23E02A1400DC314C /* TextViewController.swift */,
+				7EC5946C25E780CF00319846 /* CollectionViewCell.swift */,
+				094DE8E023E026AD00DC314C /* Assets.xcassets */,
+				7E2CE982262574E700A5BE97 /* SCDream3.otf */,
+				094DE8E523E026AD00DC314C /* Info.plist */,
+			);
+			path = Happick_;
+			sourceTree = "<group>";
+		};
+		B31BF19459C07F88C94F262A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EAEC5E4506221F75CD613F4 /* Pods-Happick_.debug.xcconfig */,
+				69F2087BFACD44984B61AFE9 /* Pods-Happick_.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B59AFBC54798F3ED56D9C92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E44DC6B2630050C005C3BDD /* LocalAuthentication.framework */,
+				9F800B17CB5FE085ED12CAA6 /* Pods_Happick_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094DE8D323E026AC00DC314C /* Happick_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094DE8E823E026AD00DC314C /* Build configuration list for PBXNativeTarget "Happick_" */;
+			buildPhases = (
+				BF237D5DDB915B3F61903422 /* [CP] Check Pods Manifest.lock */,
+				094DE8D023E026AC00DC314C /* Sources */,
+				094DE8D123E026AC00DC314C /* Frameworks */,
+				094DE8D223E026AC00DC314C /* Resources */,
+				115C199F02A49EF947428E42 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Happick_;
+			productName = Happick_;
+			productReference = 094DE8D423E026AC00DC314C /* Happick_.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094DE8CC23E026AC00DC314C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = Claire;
+				TargetAttributes = {
+					094DE8D323E026AC00DC314C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 094DE8CF23E026AC00DC314C /* Build configuration list for PBXProject "Happick_" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094DE8CB23E026AC00DC314C;
+			productRefGroup = 094DE8D523E026AC00DC314C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094DE8D323E026AC00DC314C /* Happick_ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094DE8D223E026AC00DC314C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094DE8E423E026AD00DC314C /* LaunchScreen.storyboard in Resources */,
+				094DE8E123E026AD00DC314C /* Assets.xcassets in Resources */,
+				094DE8DF23E026AC00DC314C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115C199F02A49EF947428E42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Happick_/Pods-Happick_-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Happick_/Pods-Happick_-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Happick_/Pods-Happick_-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF237D5DDB915B3F61903422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Happick_-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094DE8D023E026AC00DC314C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC5946D25E780CF00319846 /* CollectionViewCell.swift in Sources */,
+				7E39DF45266BE5220019708F /* IdViewController.swift in Sources */,
+				094DE8D823E026AC00DC314C /* AppDelegate.swift in Sources */,
+				094DE8DA23E026AC00DC314C /* SceneDelegate.swift in Sources */,
+				094DE8EC23E02A1400DC314C /* TextViewController.swift in Sources */,
+				7E44DC6E263005C0005C3BDD /* PasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		094DE8DD23E026AC00DC314C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094DE8DE23E026AC00DC314C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094DE8E223E026AD00DC314C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094DE8E323E026AD00DC314C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094DE8E623E026AD00DC314C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		094DE8E723E026AD00DC314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094DE8E923E026AD00DC314C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAEC5E4506221F75CD613F4 /* Pods-Happick_.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8CRT9RQ84;
+				INFOPLIST_FILE = Happick_/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.claire.Happick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		094DE8EA23E026AD00DC314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F2087BFACD44984B61AFE9 /* Pods-Happick_.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8CRT9RQ84;
+				INFOPLIST_FILE = Happick_/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.claire.Happick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094DE8CF23E026AC00DC314C /* Build configuration list for PBXProject "Happick_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094DE8E623E026AD00DC314C /* Debug */,
+				094DE8E723E026AD00DC314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094DE8E823E026AD00DC314C /* Build configuration list for PBXNativeTarget "Happick_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094DE8E923E026AD00DC314C /* Debug */,
+				094DE8EA23E026AD00DC314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094DE8CC23E026AC00DC314C /* Project object */;
+}
